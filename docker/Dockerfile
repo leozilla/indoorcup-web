@@ -1,3 +1,3 @@
 FROM leozilla/indoorcup-web
-RUN mkdir -p /var/www/img
+RUN /bin/busybox mkdir -p /var/www/img
 EXPOSE 80
