@@ -15,5 +15,5 @@ then
     docker kill $OLD_CONTAINER_ID
 fi
 
-docker run -d -p 80:80 leozilla/indoorcup-web --name indoorcup-web
+docker run -d -p 80:80 leozilla/indoorcup-web
 
