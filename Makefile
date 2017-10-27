@@ -18,5 +18,8 @@ build:
 push:
 	docker push $(DOCKER_IMAGE_NAME)
 
+pull:
+    docker pull $(DOCKER_IMAGE_NAME)
+
 test:
 	docker run --rm leozilla/indoorcup-web /bin/busybox echo "Success."
