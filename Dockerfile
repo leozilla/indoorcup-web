@@ -1,3 +1,3 @@
 FROM leozilla/indoorcup-web
-ADD ../img/logo.jpg /www/img
+ADD img/logo.jpg /www/img
 EXPOSE 80
