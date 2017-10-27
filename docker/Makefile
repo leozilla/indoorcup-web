@@ -9,8 +9,7 @@ build:
 		--add-file ../index.html /www/ \
 		--add-file ../img/logo.jpg /www/img \
 		--entry '/bin/busybox' \
-		--cmd 'httpd -f -p 80 -h /www' \
-		--cmd '/bin/busybox mkdir -p /www/img' \
+		--cmd 'httpd -f -p 80 -h /www && /bin/busybox mkdir -p /www/img' \
 		/bin/busybox
 	docker tag -f $(DOCKER_IMAGE_NAME) $(DOCKER_IMAGE_NAME):latest
 	docker build -t leozilla/indoorcup-web .
