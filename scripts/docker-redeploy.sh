@@ -2,7 +2,7 @@
 set -e
 
 cd ..
-make pull
+make build test
 
 OLD_CONTAINER_ID=`docker ps | grep indoorcup-web | awk '{print $1}'`
 if [ -z "$OLD_CONTAINER_ID" ];
