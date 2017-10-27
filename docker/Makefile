@@ -11,7 +11,7 @@ build:
 		--cmd 'httpd -f -p 80 -h /www' \
 		/bin/busybox
 	docker tag -f $(DOCKER_IMAGE_NAME) $(DOCKER_IMAGE_NAME):latest
-	docker build -f leozilla/indoorcup-web .
+	docker build -f Dockerfile .
 	docker tag -f $(DOCKER_IMAGE_NAME) $(DOCKER_IMAGE_NAME):latest
 	docker tag -f $(DOCKER_IMAGE_NAME) $(DOCKER_IMAGE_TAGNAME)
 
