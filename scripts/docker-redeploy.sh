@@ -16,5 +16,5 @@ else
 fi
 
 echo "Starting new container"
-docker run -d -p 80:80 leozilla/indoorcup-web
+docker run -d -p 80:80 --name indoorcup-web leozilla/indoorcup-web
 
