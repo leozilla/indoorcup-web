@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-cd ..
-make build test
-
 OLD_CONTAINER_ID=`docker ps | grep indoorcup-web | awk '{print $1}'`
 if [ -z "$OLD_CONTAINER_ID" ];
 then
