@@ -11,6 +11,7 @@ if [ ! -z "$OLD_CONTAINER_ID" ];
 then
     echo "Killing container $OLD_CONTAINER_ID"
     docker kill $OLD_CONTAINER_ID
+    docker rm $OLD_CONTAINER_ID
 else
     echo "No container to kill"
 fi
