@@ -95,6 +95,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: 'Helvetica Neue', 'Vollkorn', sans-serif;
+}
+
 .fragen {
     font-weight: bold;
 }
@@ -104,6 +108,40 @@ textarea {
     width: 360px;
 }
 
+#header {
+    height: 26px;
+    display: table;
+}
+
+#navigation_bar {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#header a:link {
+    color: #0a0b43;
+}
+
+#header a:visited {
+    color: #0a0b43;
+}
+
+#header a {
+    margin: 0 0 0 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-left: #f71c7a solid 1px;
+    border-right: #f71c7a solid 1px;
+    text-decoration: none;
+}
+
+#header a#nav_infos {
+    border-left: 0;
+}
+
+#header a#nav_kontakt {
+    border-right: 0;
+}
 
 
 
