@@ -99,9 +99,10 @@ textarea {
     font-weight: bold;
 }
 
-
-
-
+#map {
+    height: 360px;
+    width: 360px;
+}
 
 
 
