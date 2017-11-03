@@ -10,7 +10,7 @@ fi
 if [ ! -z "$OLD_RUNNING_CONTAINER_ID" ];
 then
     echo "Stop container $OLD_RUNNING_CONTAINER_ID"
-    docker stop OLD_RUNNING_CONTAINER_ID
+    docker stop $OLD_RUNNING_CONTAINER_ID
 else
     echo "No container to stop"
 fi
