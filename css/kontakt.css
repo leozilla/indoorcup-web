@@ -34,6 +34,7 @@
 #kontakt_table .name {
     background-color: #eeeeee;
     color: #0a0b43;
+    height: 30px;
 }
 
 #kontakt_table .name,.role {
@@ -42,5 +43,6 @@
 
 #kontakt_table tr.role>td {
     border-bottom: #ec3434 solid 2px;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
 }
