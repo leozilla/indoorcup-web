@@ -4,9 +4,43 @@
 }
 
 #kontakt_table {
-    margin: 50px 0 50px 50px;
+    margin: 25px 0 50px 50px;
+    border: #cccccc solid 1px;
+}
+
+#kontakt_table_heading {
+    border: #0a0b43 solid 1px;
+}
+
+#kontakt_table th {
+    background-color: #0a0b43;
+    color: white;
 }
 
 #kontakt_table .portrait_role {
     text-align: center;
+}
+
+#kontakt_table tr.person {
+    border-bottom: #ec3434 solid 2px;
+}
+
+#kontakt_table tr.person>td {
+    padding-bottom: 1em;
+}
+
+
+
+#kontakt_table .name {
+    background-color: #eeeeee;
+    color: #0a0b43;
+}
+
+#kontakt_table .name,.role {
+    text-align: center;
+}
+
+#kontakt_table tr.role>td {
+    border-bottom: #ec3434 solid 2px;
+    padding-bottom: 1em;
 }
