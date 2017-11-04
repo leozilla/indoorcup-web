@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font-family: 'Helvetica Neue', 'Vollkorn', sans-serif;
+    font-family: 'Tangerine', 'Helvetica Neue', 'Vollkorn', 'Open Sans', 'Archivo Narrow', 'Verdana', 'Geneva', 'Arial', sans-serif;
 }
 
 #logo {
@@ -146,16 +146,16 @@ body {
     border-right: 0;
 }
 
+#info_table tr {
+    vertical-align:top;
+}
+
 .fragen {
     font-weight: bold;
 }
 
-#info h2 {
-    color: #ec3434;
-    font-style: italic;
-}
 
-#program h2 {
+#info h2, #program h2, #anfahrt h2 {
     color: #ec3434;
     font-style: italic;
 }
