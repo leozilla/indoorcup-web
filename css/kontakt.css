@@ -21,16 +21,6 @@
     text-align: center;
 }
 
-#kontakt_table tr.person {
-    border-bottom: #ec3434 solid 2px;
-}
-
-#kontakt_table tr.person>td {
-    padding-bottom: 1em;
-}
-
-
-
 #kontakt_table .name {
     background-color: #eeeeee;
     color: #0a0b43;
