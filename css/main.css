@@ -170,6 +170,11 @@ body {
 }
 
 
+#program_table {
+    text-align: center;
+}
+
+
 #map {
     height: 360px;
     width: 360px;
