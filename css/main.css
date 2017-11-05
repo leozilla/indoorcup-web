@@ -112,6 +112,7 @@ section {
 
 #logo {
     border-bottom: 5px solid #dd3b2a;
+    /* box-shadow: 12px 14px 28px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 #logo img {
@@ -158,8 +159,8 @@ section {
     border-right: 0;
 }
 
-
 #info h2, #program h2, #anfahrt h2 {
+    border-bottom: #ec3434 solid 1px;
     color: #ec3434;
     font-style: italic;
 }
@@ -221,6 +222,22 @@ section {
     text-align: center;
 }
 
+#program_table tr>th {
+    padding-bottom: 8px;
+}
+
+#program_table tr>th>div {
+    width: 35%;
+    margin: auto;
+
+    border-bottom: #cccccc 1px solid;
+}
+
+#program_table tr>td {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
 #anfahrt {
     clear: left;
     float: left;
@@ -229,6 +246,10 @@ section {
     max-width: 495px;
     position: relative;
     width: 50%;
+}
+
+#anfahrt h2 {
+    width: 100%;
 }
 
 #anfahrt > * {
