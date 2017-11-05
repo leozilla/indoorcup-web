@@ -97,9 +97,21 @@ textarea {
 
 body {
     font-family:  'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+section {
+    display: block;
 }
 
 #logo {
+    border-bottom: 5px solid #dd3b2a;
 }
 
 #logo img {
@@ -152,6 +164,10 @@ body {
     font-style: italic;
 }
 
+#info_table {
+    display: block;
+}
+
 #info_table tr {
     vertical-align:top;
 }
@@ -169,23 +185,27 @@ body {
     padding-left: 20px;
 }
 
-#info_program_beschreibung {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-top: 5px solid #dd3b2a;
-    border-bottom: 3px solid #cccccc;
-    float: left;
-    position: relative;
-    width: 100%;
-}
-
 #info_program {
     clear: left;
     float: left;
     left: 50%;
     margin-left: -520px;
-    padding-bottom: 15px;
     max-width: 495px;
     position: relative;
+    width: 50%;
+    z-index: 4;
+}
+
+#info_program_beschreibung {
+    background-color: rgba(255, 255, 255, 0.9);
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+
+#info_program_beschreibung > * {
+    float: left;
     width: 50%;
 }
 
@@ -196,12 +216,6 @@ body {
     position: relative;
     left: 50%;
 }
-
-#info_program_beschreibung > * {
-    float: left;
-    width: 50%;
-}
-
 
 #program_table {
     text-align: center;
@@ -229,6 +243,26 @@ body {
 
 footer {
     clear: left;
+}
+
+@media (max-width: 1040px) {
+    #info_program {
+        left: auto;
+        margin: 0 2.5% 0 5%;
+        width: 42.5%;
+    }
+
+    #beschreibung {
+        margin: 0 5% 0 2.5%;
+        width: 42.5%;
+    }
+
+    #anfahrt {
+        left: auto;
+        margin-left: 0;
+        padding: 0 5%;
+        width: 90%;
+    }
 }
 
 
