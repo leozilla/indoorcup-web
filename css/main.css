@@ -123,16 +123,6 @@ section {
     width: auto\9; /* ie8 */
 }
 
-/*
-header {
-    height: 26px;
-    width: 100%;
-    display: table;
-    font-size: 110%;
-    font-style: italic;
-    font-weight: bold;
-}*/
-
 #nav {
     position: absolute;
     top: 10px;
@@ -143,10 +133,7 @@ header {
     width: auto\9; /* ie8 */
     max-width:100%;
     vertical-align: middle;
-
-    /* width: 100%;
-    display: table; */
-    font-size: 130%;
+    font-size: 140%;
     font-style: italic;
     font-weight: bold;
 }
@@ -305,6 +292,15 @@ footer a:hover {
 }
 
 @media (max-width: 1040px) {
+    #nav {
+        position: absolute;
+        top: 10px;
+        left: 5px;
+        max-width:100%;
+        vertical-align: middle;
+        font-size: 120%;
+    }
+
     #info_program {
         left: auto;
         margin: 0 2.5% 0 5%;
@@ -324,6 +320,24 @@ footer a:hover {
     }
 }
 
+@media (max-width: 880px) {
+    #nav {
+        width: 140px;
+        vertical-align: middle;
+        font-size: 110%;
+    }
+
+    #nav a {
+        display: block;
+        border: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    #nav {
+        font-size: 90%;
+    }
+}
 
 /* ==========================================================================
    Helper classes
