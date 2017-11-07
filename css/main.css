@@ -126,6 +126,9 @@ section {
 #header {
     height: 26px;
     display: table;
+    font-size: 110%;
+    font-style: italic;
+    font-weight: bold;
 }
 
 #nav {
@@ -144,11 +147,15 @@ section {
 }
 
 #header a:link {
-    color: #0a0b43;
+    color: #2f3068;
+}
+
+#header a:hover {
+    color: #f71c7a;
 }
 
 #header a:visited {
-    color: #0a0b43;
+    color: #2f3068;
 }
 
 #header a#nav_infos {
@@ -220,6 +227,7 @@ section {
 
 #program_table {
     text-align: center;
+    width: 100%;
 }
 
 #program_table tr>th {
@@ -230,12 +238,16 @@ section {
     width: 35%;
     margin: auto;
 
-    border-bottom: #cccccc 1px solid;
+    border-bottom: #999999 1px solid;
 }
 
 #program_table tr>td {
     padding-bottom: 3px;
     padding-top: 3px;
+}
+
+#program_table .background {
+    background-color: rgba(243, 243, 243, 0.9);
 }
 
 #anfahrt {
@@ -264,6 +276,17 @@ section {
 
 footer {
     clear: left;
+    text-align: center;
+    font-size: 110%;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 1040px) {
