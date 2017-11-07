@@ -128,10 +128,6 @@ section {
     top: 10px;
     left: 5px;
     display:block;
-    margin:auto;
-    height:auto;
-    width: auto\9; /* ie8 */
-    max-width:100%;
     vertical-align: middle;
     font-size: 140%;
     font-style: italic;
@@ -289,6 +285,23 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 1600px) {
+    #logo {
+        width: 70%;
+        margin: 16px auto;
+        position:relative;  /* added */
+        min-width: 280px;
+    }
+
+    #nav {
+        width: 128px;
+        height: 128px;
+        position:absolute;  /* added */
+        top:5px;
+        right:16px;
+    }
 }
 
 @media (max-width: 1040px) {
