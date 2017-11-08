@@ -327,19 +327,24 @@ footer a:hover {
     #info_program {
         left: auto;
         margin: 0 2.5% 0 5%;
-        width: 42.5%;
+        width: 90%;
     }
 
     #beschreibung {
-        margin: 0 5% 0 2.5%;
-        width: 42.5%;
+        left: auto;
+        margin: 0 5% 0 5%;
+        width: 90%;
     }
 
     #anfahrt {
         left: auto;
-        margin-left: 0;
-        padding: 0 5%;
+        margin: 0 5% 0 5%;
         width: 90%;
+    }
+
+    #map {
+        height: 324px;
+        width: 324px;
     }
 }
 
