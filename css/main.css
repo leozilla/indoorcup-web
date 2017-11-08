@@ -316,6 +316,13 @@ footer a:hover {
         border-bottom: white 5px solid;
     }
 
+    #map {
+        height: 324px;
+        width: 324px;
+    }
+}
+
+@media (max-width: 1024px) {
     #info_program {
         left: auto;
         margin: 0 2.5% 0 5%;
@@ -333,14 +340,6 @@ footer a:hover {
         margin: 0 5% 0 5%;
         width: 90%;
     }
-
-    #map {
-        height: 324px;
-        width: 324px;
-    }
-}
-
-@media (max-width: 1024px) {
 }
 
 @media (max-width: 880px) {
