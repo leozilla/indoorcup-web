@@ -116,7 +116,6 @@ section {
 }
 
 #logo img {
-    display:block;
     margin:auto;
     max-width:100%;
     height:auto;
@@ -124,12 +123,8 @@ section {
 }
 
 #nav {
-    position: absolute;
-    top: 0;
-    left: 0;
     vertical-align: middle;
-    padding-right: 6px;
-    padding-bottom: 5px;
+    width: 100%;
     background-color: #26275d;
     font-size: 140%;
     font-style: italic;
@@ -289,19 +284,21 @@ footer a:hover {
     text-decoration: underline;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1441px) {
+
     #nav {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto 0 auto;
+        max-width: 1600px;
+        position:relative;
         border-bottom: white 5px solid;
     }
 
     #logo {
-        width: 70%;
+        width: 1600px;
         margin: 0 auto 0 auto;
         position:relative;
-        min-width: 280px;
-    }
-
-    #logo {
         border-bottom:0;
     }
 
@@ -312,14 +309,10 @@ footer a:hover {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
     #nav {
         width: 100%;
         border-bottom: white 5px solid;
-    }
-
-    #logo img {
-        margin-top: 5%;
     }
 
     #info_program {
@@ -346,18 +339,18 @@ footer a:hover {
     }
 }
 
+@media (max-width: 1024px) {
+
+}
+
 @media (max-width: 880px) {
     #nav {
         border-bottom: white 5px solid;
         font-size: 110%;
     }
-
-    #logo img {
-        margin-top: 27px;
-    }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
     #nav {
         padding-bottom: 0;
         border-bottom: white 3px solid;
@@ -367,7 +360,6 @@ footer a:hover {
 
 @media (max-width: 412px) {
     #nav {
-        border-bottom: white 1px solid;
         font-size: 80%;
     }
 }
