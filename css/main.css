@@ -128,6 +128,9 @@ section {
     top: 0;
     left: 0;
     vertical-align: middle;
+    padding-right: 6px;
+    padding-bottom: 5px;
+    background-color: #26275d;
     font-size: 140%;
     font-style: italic;
     font-weight: bold;
@@ -287,19 +290,15 @@ footer a:hover {
 }
 
 @media (min-width: 1600px) {
+    #nav {
+        border-bottom: white 5px solid;
+    }
+
     #logo {
         width: 70%;
         margin: 0 auto 0 auto;
         position:relative;
         min-width: 280px;
-    }
-
-    #nav {
-        position:absolute;
-        padding-right: 6px;
-        padding-bottom: 5px;
-        background-color: #26275d;
-        border-bottom: white 5px solid;
     }
 
     #logo {
@@ -313,22 +312,15 @@ footer a:hover {
     }
 }
 
-@media (max-width: 1060px) {
-    #info_program {
-    }
-
-    #beschreibung {
-    }
-}
-
-@media (max-width: 1020px) {
+@media (max-width: 1024px) {
     #nav {
-        position: absolute;
-        top: 10px;
-        left: 5px;
-        max-width:100%;
-        vertical-align: middle;
-        font-size: 130%;
+        width: 100%;
+        padding-bottom: 2px;
+        border-bottom: white 5px solid;
+    }
+
+    #logo img {
+        margin-top: 35px;
     }
 
     #info_program {
@@ -357,20 +349,25 @@ footer a:hover {
 
 @media (max-width: 880px) {
     #nav {
-        width: 140px;
-        vertical-align: middle;
+        border-bottom: white 5px solid;
         font-size: 110%;
     }
 
-    #nav a {
-        display: block;
-        border: 0;
+    #logo img {
+        margin-top: 27px;
     }
 }
 
 @media (max-width: 640px) {
     #nav {
+        border-bottom: white 3px solid;
         font-size: 90%;
+    }
+}
+
+@media (max-width: 412px) {
+    #nav {
+        font-size: 80%;
     }
 }
 
