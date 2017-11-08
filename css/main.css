@@ -125,9 +125,8 @@ section {
 
 #nav {
     position: absolute;
-    top: 10px;
-    left: 5px;
-    display:block;
+    top: 0;
+    left: 0;
     vertical-align: middle;
     font-size: 140%;
     font-style: italic;
@@ -296,11 +295,11 @@ footer a:hover {
     }
 
     #nav {
-        width: 128px;
-        height: 128px;
         position:absolute;
-        top:5px;
-        right:16px;
+        padding-right: 6px;
+        padding-bottom: 5px;
+        background-color: #26275d;
+        border-bottom: white 5px solid;
     }
 
     #logo {
