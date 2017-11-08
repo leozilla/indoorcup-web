@@ -195,7 +195,7 @@ section {
     clear: left;
     float: left;
     left: 50%;
-    margin-left: -520px;
+    margin-left: -500px;
     max-width: 495px;
     position: relative;
     width: 50%;
@@ -252,7 +252,7 @@ section {
     clear: left;
     float: left;
     left: 50%;
-    margin-left: -520px;
+    margin-left: -500px;
     max-width: 495px;
     position: relative;
     width: 50%;
@@ -290,7 +290,7 @@ footer a:hover {
 @media (min-width: 1600px) {
     #logo {
         width: 70%;
-        margin: 12px auto 0 auto;
+        margin: 0 auto 0 auto;
         position:relative;
         min-width: 280px;
     }
@@ -314,7 +314,15 @@ footer a:hover {
     }
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1060px) {
+    #info_program {
+    }
+
+    #beschreibung {
+    }
+}
+
+@media (max-width: 1020px) {
     #nav {
         position: absolute;
         top: 10px;
