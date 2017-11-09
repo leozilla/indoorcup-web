@@ -1,7 +1,7 @@
 .portrait {
     width: 160px;
     height: 160px;
-    box-shadow: 12px 14px 28px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.15), 0 6px 6px 0 rgba(0, 0, 0, 0.15);
 }
 
 #kontakt {
@@ -11,14 +11,14 @@
 #nav {
     display: inline-block;
     width: 100%;
-    max-width: 768px;
+    max-width: 1600px;
     color: white;
     background-image: linear-gradient(#26275d, black);
     font-size: 140%;
     font-style: italic;
     font-weight: bold;
     border-bottom: solid 5px white;
-    box-shadow: 12px 14px 28px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 12px 14px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 #nav a {
@@ -43,7 +43,7 @@
     color: white;
 }
 
-#nav a#nav_infos {
+#nav a#nav_home {
     border-left: 0;
 }
 
