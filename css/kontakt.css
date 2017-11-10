@@ -9,8 +9,6 @@
 }
 
 #nav {
-    display: inline-block;
-    width: 100%;
     max-width: 1600px;
     color: white;
     background-image: linear-gradient(#26275d, black);
@@ -68,6 +66,7 @@
 
 .portrait_holder {
     display: inline-block;
+    margin-bottom: 5px;
 }
 
 .person_info_holder {
@@ -107,13 +106,37 @@ footer a:hover {
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 425px) {
     #kontakt {
-        min-width: 410px;
     }
 
     #nav {
-        min-width: 410px;
+        font-size: 100%;
+        border-bottom: solid 3px white;
+    }
+
+    #nav a {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .portrait_holder {
+        display: block;
+    }
+
+    .person_info_holder {
+        display: block;
+    }
+
+    .person {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    #nav {
+        font-size: 85%;
     }
 }
 
